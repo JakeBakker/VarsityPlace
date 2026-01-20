@@ -62,8 +62,8 @@
                                 </div>
                                 <div class="range-slider">
                                     <div class="price-input">
-                                        <input type="text" id="minamount" value="<?php echo $min_price; ?>">
-                                        <input type="text" id="maxamount" value="<?php echo $max_price; ?>">
+                                        <input type="text" id="minamount" value="R<?php echo $min_price, 2; ?>">
+                                        <input type="text" id="maxamount" value="R<?php echo $max_price, 2; ?>">
                                     </div>
                                 </div>
                             </div>
